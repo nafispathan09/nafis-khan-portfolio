@@ -14,7 +14,6 @@ PROJECT PLAN
     │   ├── Home
     │   ├── About
     │   ├── Skills
-    │   ├── Education
     │   ├── Projects
     │   └── Contact
     │
