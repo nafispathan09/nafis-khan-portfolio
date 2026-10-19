@@ -7,6 +7,7 @@ body{
     background-color:#FCF1D0;
     margin: 0px;
     padding: 0px;
+    margin: 10px;
     align-items: center;
     padding-left: 10px;
     
@@ -19,8 +20,14 @@ h1{background-color:#010736;
     
 }
 
-h3{
-    background-color: bisque;
+#home h3{
+    background-color: #0D1C42;
+    line-height:1cm;
+    color: white;
+    min-width: 800px;
+    margin-top: 50px;
+    border:4px solid white;
+    border-radius: 10%;
 }
 
 body{
@@ -34,30 +41,36 @@ p{
     background-color:rgb(148, 116, 178)
 }
 
-header{
-    background-color: rgb(135, 243, 245);
+header,footer{
+    background-color:#0D1C42;
     padding: 5px;
     
 }
 
 nav{
+    text-align: center;
     display: flex;
-    justify-content: center;
+    
+    
+    
     align-items: center;
-    gap: 100px;
+    
 }
 
 nav a{
     color: white;
+    gap: 100px;
     text-decoration: none;
+    flex: 1;
+    text-align: center;
     font-size: 15px;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
 }
 
 nav a:hover{
-    background-color: rgb(249, 85, 85);
-    color: black;
+    
+    color:#D3D4C0;
 }
 
 #home{
@@ -99,28 +112,49 @@ main section{
     
 }
 
+#skills h2,#skills h3{
+    background-color: #FCF1D0;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+
+}
+
 #about{
     background-color: pink;
     border: 1cm;
+    min-height: 100px;
+    min-width: 50%;
     border-radius: 19px;
     border-color: white;
 }
 #skills ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    grid-template-columns: 19px;
-    gap:20px;
+    
+    padding-left: 20px;
+   
+   
+}
+
+#skills{
+    background-color:#22396F ;
+    border: 5px solid white;
+    border-radius: 10px;
+    min-width: 50%;
+   
 }
 
 #skills li{
+    color:white;
     padding:10px;
     border: 10px;
+    font-weight: 500;
+    font-size: 20px;
     gap: 5px;
     border-color: aliceblue;
     border-radius: 29px;
-    background-color: rgb(226, 134, 134);
+   
 }
 
 #projects{
@@ -205,18 +239,20 @@ main section{
 footer{
     padding: 25px;
     text-align: center;
-    background-color: rgba(155, 169, 232, 0.899);
+    margin:30px;
+
+   
 
 }
 
 footer a{
-    background-color: #5bcdcd;
+   
     margin: 23px;
     text-decoration: none;
     color: white;
 }
 
 footer a:hover{
-    background-color: white;
+   
     color: #5bcdcd;
 }
