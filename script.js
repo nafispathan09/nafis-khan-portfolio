@@ -8,12 +8,9 @@ function showmessage(){
 
 }
 
-
-
-
-
  let button =document.getElementById("message")
 
+ 
 console.log(button);
 
 
