@@ -80,7 +80,7 @@ footer {
 
 footer p {
     margin: 5px;
-    margin:5px 0px 7px 0px;
+    margin: 5px 0px 7px 0px;
     color: white;
 
     font-family: 'Times New Roman', Times, serif;
@@ -181,8 +181,8 @@ main section {
 
 /*about*/
 
-#about h2{
-   color: #092328;
+#about h2 {
+    color: #092328;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -191,17 +191,17 @@ main section {
     font-size: 18px;
     line-height: 20px;
     background-color: #8BBB92;
-    border: 3px solid  white;
-    border-radius:10px;
+    border: 3px solid white;
+    border-radius: 10px;
     padding: 5px;
-    
 
-    
-    
+
+
+
 }
 
 #about {
-    background-color:#D3D4C0 ;
+    background-color: #D3D4C0;
     border: 1cm;
     min-height: 100px;
     min-width: 50%;
@@ -221,7 +221,7 @@ main section {
 }
 
 #skills {
-    background-color:#8BBB92;
+    background-color: #8BBB92;
     border: 3px solid white;
     border-radius: 10px;
     min-width: 50%;
@@ -256,18 +256,36 @@ main section {
 
 
 #projects {
-    display: flex;
-    grid-template-columns: 15px;
-    gap: 29px;
+    padding: 5px;
 
+    border-radius: 10px;
+}
+
+#projects div {
+    background-color: #fcf1d061;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px
+}
+
+#projects h2 {
+    margin: 10px;
+
+
+    font-size: 30px;
+}
+
+#projects h3 {
+    font-size: 20px;
+
+    margin-bottom: 5px;
 
 }
 
 #projects article {
+    margin: 10px;
     padding: 10px;
-    background-color:#8BBB92;
-    border: 10px;
-    border-color: white;
+    background-color: #8BBB92;
     border: 3px solid white;
     border-radius: 23px;
     box-shadow: 10px;
@@ -275,17 +293,19 @@ main section {
 
 #projects article a {
     text-decoration: none;
-    color: white;
-    background-color: rgb(81, 81, 73);
+    color: #373e40;
+    background-color: #72efdd;
     display: flex;
     font-weight: 600;
     margin: 15px;
     justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 #projects article a:hover {
-    background-color: white;
-    color: black;
+    opacity: 90%;
+    
 }
 
 
@@ -361,7 +381,7 @@ main section {
     margin: auto;
 
     color: aliceblue;
-    background-color: #359FA0;
+    background-color: #72efdd;
     height: 30px;
     width: 23rem;
     font-weight: 700;
@@ -377,8 +397,6 @@ main section {
 
 
 
-    background-color: #5bcdcd;
-    color: #093334;
 
 }
 
