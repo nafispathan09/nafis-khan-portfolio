@@ -1,5 +1,5 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -7,16 +7,24 @@
 /* header */
 
 
-nav{
+header {
+    background-color: #0D1C42;
+    padding: 5px;
+
+}
+
+
+nav {
     text-align: center;
     display: flex;
-    
-    
-    
+
+
+
     align-items: center;
-    
+
 }
-nav a{
+
+nav a {
     color: white;
     gap: 100px;
     text-decoration: none;
@@ -26,120 +34,161 @@ nav a{
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
 }
-nav a:hover{
-    
-    color:#D3D4C0;
+
+nav a:hover {
+
+    color: #D3D4C0;
 }
 
 
 /* body */
 
 
-body{
-    background-color:#FCF1D0;
+body {
+    background-color: #FCF1D0;
     margin: 0px;
     padding: 0px;
-    margin: 10px;
+    margin: 0px;
     align-items: center;
-    padding-left: 10px;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    padding-left: 0px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     line-height: 1.3;
-    
 }
 
 
 /* footer */
 
 
-header,footer{
-    background-color:#0D1C42;
+footer {
+    min-height: 250px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0D1C42;
     padding: 5px;
-    
-}
-footer{
-    padding: 25px;
-    text-align: center;
-    margin:30px;
 
-   
+
+    height: 200px;
+    align-items: center;
+    margin: 0px;
+
 
 }
-footer a{
-   
-    margin: 23px;
+
+
+footer p {
+    margin: 5px;
+    margin:5px 0px 7px 0px;
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+}
+
+footer h5 {
+    color: rgb(198, 204, 202);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+footer a {
+
+    display: flex;
+    margin: auto;
+
+
+
     text-decoration: none;
     color: white;
 }
-footer a:hover{
-   
-    color: #5bcdcd;
+
+footer a:hover {
+
+    color: grey;
 }
+
 
 
 /*home*/
 
 
-#home h3{
+#home h3 {
     background-color: #0D1C42;
-    line-height:1cm;
+    line-height: 1cm;
     color: white;
     min-width: 800px;
     margin-top: 50px;
-    border:4px solid white;
+    border: 4px solid white;
     border-radius: 10%;
 }
-#home{
+
+#home {
     padding: 20px;
-    max-width: 100%;;
+    max-width: 100%;
+    ;
     display: flex;
-    
+
 
     justify-content: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
-#home h1{
-   
+
+#home h1 {
+
     background-color: #010736;
     color: wheat;
-    width: 100% ;
-    
+    width: 100%;
+
     font-weight: 700;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
 
 
 }
+
 #home p {
-    max-width:100%;
+    max-width: 100%;
     line-height: 1.3cm;
-    margin:1.5cm;
+    margin: 1.5cm;
 }
 
 
 /*main*/
 
 
-main section{
+main section {
     padding: 15px;
     margin: 18px;
     max-width: fit-content;
-    background-color:#D3D4C0
-    
+    background-color: #D3D4C0
 }
 
 
 /*about*/
 
 
-#about p{
-    font-size:18px;
+#about p {
+    font-size: 18px;
     line-height: 20px;
-    background-color:#0D1C42
+    background-color: #0D1C42
 }
-#about{
+
+#about {
     background-color: pink;
     border: 1cm;
     min-height: 100px;
@@ -152,61 +201,67 @@ main section{
 /*skills*/
 
 
-#skills ul{
-    
+#skills ul {
+
     padding-left: 20px;
-   
-   
+
+
 }
-#skills{
-    background-color:#22396F ;
+
+#skills {
+    background-color: #22396F;
     border: 5px solid white;
     border-radius: 10px;
     min-width: 50%;
-   
+
 }
-#skills h2,#skills h3{
+
+#skills h2,
+#skills h3 {
     background-color: #FCF1D0;
     width: fit-content;
     padding: 5px;
     border-radius: 10px;
     border: 2px solid white;
-    
+
 
 }
-#skills li{
-    color:white;
-    padding:10px;
+
+#skills li {
+    color: white;
+    padding: 10px;
     border: 10px;
     font-weight: 500;
     font-size: 20px;
     gap: 5px;
     border-color: aliceblue;
     border-radius: 29px;
-   
+
 }
 
 
 /*projects*/
 
 
-#projects{
+#projects {
     display: flex;
     grid-template-columns: 15px;
-    gap:29px;
+    gap: 29px;
 
 
 }
-#projects article{
+
+#projects article {
     padding: 10px;
     background-color: rgb(155, 162, 154);
     border: 10px;
     border-color: white;
-     border: 3px solid black;
+    border: 3px solid black;
     border-radius: 23px;
     box-shadow: 10px;
 }
-#projects article a{
+
+#projects article a {
     text-decoration: none;
     color: white;
     background-color: rgb(81, 81, 73);
@@ -215,7 +270,8 @@ main section{
     margin: 15px;
     justify-content: center;
 }
-#projects article a:hover{
+
+#projects article a:hover {
     background-color: white;
     color: black;
 }
@@ -224,32 +280,35 @@ main section{
 /*contect*/
 
 
-#contact{
+#contact {
     background-color: #D3D4C0;
     margin: 19px;
-    
+
     border-radius: 23px;
 }
-#contact form{
+
+#contact form {
     background-color: #8BBB92;
     display: flex;
     flex-direction: column;
-    gap: 20px ;
-    border:3px solid white;
+    gap: 20px;
+    border: 3px solid white;
     border-radius: 5%;
-    padding:10px;
+    padding: 10px;
     margin-top: 20px;
 
 }
-#contact h3{
+
+#contact h3 {
     margin-left: 2px;
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 5px;
 
 }
-#contact p{
-   font-size: 25px;
+
+#contact p {
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -257,56 +316,58 @@ main section{
     background-color: #ffffff;
     border: 2px solid white;
     border-radius: 10px;
-    
+
 
 }
-#contact input{
-    width:max-content;
+
+#contact input {
+    width: max-content;
     background-color: #010736;
     padding: 09px;
-    
+
     border: 1px solid white;
     border-radius: 9px;
     font-size: 20px;
     font-weight: 500;
 }
 
-#contact label{
+#contact label {
     font-size: 1.5rem;
     font-weight: 800;
-    color:#092328;
+    color: #092328;
     margin-top: 0;
 
 
-    
+
 
 }
 
-    
 
-#contact button{
+
+#contact button {
     display: block;
-    margin:auto;
+    margin: auto;
 
-   color: aliceblue;
-   background-color: #359FA0;
-   height: 30px;
-   width:417px;
-   font-weight: 700;
-   font-size: 20px;
-   border:2px solid white ;
-   border-radius: 10px;
-   margin-bottom: 30px;
-   
-  
+    color: aliceblue;
+    background-color: #359FA0;
+    height: 30px;
+    width: 417px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+
 }
-#contact button:hover{
 
-   
+#contact button:hover {
 
-   background-color:#5bcdcd;
-    color:#093334;
-    
+
+
+    background-color: #5bcdcd;
+    color: #093334;
+
 }
 
 
