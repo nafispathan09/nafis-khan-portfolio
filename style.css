@@ -4,6 +4,13 @@
 }
 
 
+body h2{color: #092328;
+    font-size: 30px;
+    margin: 5px;
+   
+    
+}
+
 /* header */
 
 
@@ -181,11 +188,7 @@ main section {
 
 /*about*/
 
-#about h2 {
-    color: #092328;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+
 
 #about p {
     font-size: 18px;
@@ -205,7 +208,7 @@ main section {
     border: 1cm;
     min-height: 100px;
     min-width: 50%;
-    border-radius: 19px;
+    border-radius: 10px;
     border-color: white;
 }
 
@@ -214,21 +217,43 @@ main section {
 
 
 #skills ul {
+    padding: 15px;
 
-    padding-left: 20px;
+
+
 
 
 }
+
+section{
+    border-radius: 10px;
+}
+
 
 #skills {
+    width: 100%;
+    gap: 10px;
+    background-color: #D3D4C0;
+   
+   
+    display: flex;
+}
+
+#skills article {
+    
+    align-items: center;
     background-color: #8BBB92;
+    padding: 10px;
+    margin: 5px;
     border: 3px solid white;
-    border-radius: 10px;
-    min-width: 50%;
+    border-radius: 13px;
+    
+
+
 
 }
 
-#skills h2,
+
 #skills h3 {
     background-color: #FCF1D0;
     width: fit-content;
@@ -256,7 +281,7 @@ main section {
 
 
 #projects {
-    padding: 5px;
+    padding: 15px;
 
     border-radius: 10px;
 }
@@ -266,13 +291,6 @@ main section {
     border-radius: 10px;
     padding: 5px;
     font-size: 15px
-}
-
-#projects h2 {
-    margin: 10px;
-
-
-    font-size: 30px;
 }
 
 #projects h3 {
@@ -288,7 +306,7 @@ main section {
     background-color: #8BBB92;
     border: 3px solid white;
     border-radius: 23px;
-    box-shadow: 10px;
+    
 }
 
 #projects article a {
@@ -305,7 +323,7 @@ main section {
 
 #projects article a:hover {
     opacity: 90%;
-    
+
 }
 
 
@@ -316,7 +334,7 @@ main section {
     background-color: #D3D4C0;
     margin: 19px;
 
-    border-radius: 23px;
+    
 }
 
 #contact form {
@@ -331,13 +349,7 @@ main section {
 
 }
 
-#contact h3 {
-    margin-left: 2px;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 5px;
 
-}
 
 #contact p {
     font-size: 25px;
@@ -393,12 +405,7 @@ main section {
 
 }
 
-#contact button:hover {
-
-
-
-
-}
+#contact button:hover {}
 
 
 
