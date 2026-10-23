@@ -181,15 +181,27 @@ main section {
 
 /*about*/
 
+#about h2{
+   color: #092328;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 
 #about p {
     font-size: 18px;
     line-height: 20px;
-    background-color: #0D1C42
+    background-color: #8BBB92;
+    border: 3px solid  white;
+    border-radius:10px;
+    padding: 5px;
+    
+
+    
+    
 }
 
 #about {
-    background-color: pink;
+    background-color:#D3D4C0 ;
     border: 1cm;
     min-height: 100px;
     min-width: 50%;
@@ -209,8 +221,8 @@ main section {
 }
 
 #skills {
-    background-color: #22396F;
-    border: 5px solid white;
+    background-color:#8BBB92;
+    border: 3px solid white;
     border-radius: 10px;
     min-width: 50%;
 
@@ -253,10 +265,10 @@ main section {
 
 #projects article {
     padding: 10px;
-    background-color: rgb(155, 162, 154);
+    background-color:#8BBB92;
     border: 10px;
     border-color: white;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 23px;
     box-shadow: 10px;
 }
@@ -351,7 +363,7 @@ main section {
     color: aliceblue;
     background-color: #359FA0;
     height: 30px;
-    width: 417px;
+    width: 23rem;
     font-weight: 700;
     font-size: 20px;
     border: 2px solid white;
